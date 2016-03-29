@@ -774,7 +774,7 @@ section#contact .form-group input,
 section#contact .form-group textarea {
   padding: 20px;
   border: none;
-  border-top: 8px solid rgba(34, 42, 49, 0.23);
+  border-top: 5px solid rgba(34, 42, 49, 0.23);
 }
 section#contact .form-group input.form-control {
   height: auto;
@@ -788,7 +788,7 @@ section#contact .form-group textarea.form-control {
 }
 section#contact .form-control:focus {
   box-shadow: none;
-  border-top: 8px solid #0099ff;
+  border-top: 5px solid #0099ff;
 }
 section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -982,7 +982,7 @@ body {
 }
 .lightbackground {
   background-color: #eff0f4;
-  border-top: 8px solid #0099ff;
+  border-top: 5px solid #0099ff;
   padding: 25px 15px 15px;
 }
 .lightbackground ul {
@@ -1021,7 +1021,7 @@ body {
   background-color: white;
   padding: 28px;
   min-height: 20px;
-  border-top: 8px solid #0099ff;
+  border-top: 5px solid #0099ff;
 }
 .tablepadding {
   padding: 0 30px;

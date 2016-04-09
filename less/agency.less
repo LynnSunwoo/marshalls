@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 #logonumber {display: none; height: 0; overflow: none; }
 .navbar-default {
 	background-color: @nav-background;
-	border-color: transparent;
+	border-color: lighten(@brand-darkblue, 40%);
 
 	.navbar-brand {
 	    .serif-font;
@@ -160,7 +160,9 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
-@media(min-width:768px) {
+ 
+//collapes at different bp
+@media(min-width:1000px) {
     .navbar-default {
     	background-color: fade(@nav-background, 30%);
     	background-color: transparent;
@@ -259,6 +261,9 @@ h1, h2, h3, h4, h5, h6 {
         }
 }
 }
+
+
+
 
 header {
 	background-image: url('../img/header-bg.jpg');

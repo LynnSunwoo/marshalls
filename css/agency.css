@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777;
@@ -44,7 +44,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -61,7 +61,7 @@ h6 {
   color: white;
   background-color: #222a31;
   border-color: #222a31;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -105,7 +105,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #0099ff;
   border-color: #0099ff;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 40px;
@@ -151,7 +151,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .btn-call {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
   font-weight: 700;
@@ -172,15 +172,15 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default {
   background-color: #f8f8f8;
-  border-color: transparent;
+  border-color: #7b91a4;
 }
 .navbar-default .navbar-brand {
-  font-family: '.AkhandSoft-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Yantramanav', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 1px;
   color: #222a31;
-  font-family: ".AkhandSoft-Regular", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -206,7 +206,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: #222a31;
 }
 .navbar-default .nav li a {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -231,7 +231,7 @@ fieldset[disabled] .btn-xl.active {
 .nav-topper {
   display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .navbar-default {
     background-color: rgba(248, 248, 248, 0.3);
     background-color: transparent;
@@ -242,7 +242,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-default .nav li a {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
@@ -255,7 +255,7 @@ fieldset[disabled] .btn-xl.active {
     outline: none;
   }
   .navbar-default .navbar-brand {
-    font-family: '.AkhandSoft-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Yantramanav', "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
@@ -266,7 +266,7 @@ fieldset[disabled] .btn-xl.active {
     color: #f8f8f8;
   }
   .navbar-default #logonumber {
-    font-family: '.AkhandSoft-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Yantramanav', "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
@@ -286,7 +286,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 0px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
-    font-family: '.AkhandSoft-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Yantramanav', "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
@@ -297,7 +297,7 @@ fieldset[disabled] .btn-xl.active {
     height: auto;
   }
   .navbar-default.navbar-shrink .nav li a {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
@@ -328,7 +328,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 7px 0;
     color: white;
     text-align: right;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
   }
 }
@@ -349,7 +349,7 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: '.AkhandSoft-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Yantramanav', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 1px;
@@ -359,7 +359,7 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 35px;
@@ -378,7 +378,7 @@ header .intro-text .intro-heading {
     text-align: left;
   }
   header .intro-text .intro-lead-in {
-    font-family: '.AkhandSoft-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Yantramanav', "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
@@ -388,7 +388,7 @@ header .intro-text .intro-heading {
     margin-bottom: 20px;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
@@ -404,7 +404,7 @@ header .intro-text .intro-heading {
     text-align: left;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 60;
@@ -423,7 +423,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: '.AkhandSoft-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Yantramanav', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 1px;
@@ -434,7 +434,7 @@ section h3.section-subheading {
 }
 section h3.section-subheading2 {
   font-size: 18px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
   font-style: none;
@@ -511,7 +511,7 @@ section h3.section-subheading2 .phonenumber {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: '.AkhandSoft-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Yantramanav', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 1px;
@@ -739,7 +739,7 @@ section.clients .lightbackground blockquote {
 }
 section.clients .lightbackground blockquote .bycustom {
   padding: 0 0;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 section#contact {
@@ -791,27 +791,27 @@ section#contact .form-control:focus {
   border-top: 5px solid #0099ff;
 }
 section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
 section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
@@ -826,14 +826,14 @@ footer {
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
@@ -884,7 +884,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: '.AkhandSoft-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Yantramanav', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 1px;

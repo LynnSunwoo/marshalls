@@ -229,17 +229,31 @@ fieldset[disabled] .btn-xl.active {
   background-color: #0d1013;
 }
 .nav-topper {
-  display: none;
+  display: block;
+  background-color: #222a31;
+  min-height: 30px;
+  width: 100%;
+}
+.nav-topper .topper-content {
+  padding: 7px 0 4px 15px;
+  color: white;
+  text-align: left;
+  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 @media (min-width: 1000px) {
   .navbar-default {
     background-color: rgba(248, 248, 248, 0.3);
     background-color: transparent;
-    padding: 40px 0 25px;
+    padding: 0px 0 25px;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none;
+  }
+  .navbar-default .nav-container {
+    padding: 20px 0;
   }
   .navbar-default .nav li a {
     font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -292,6 +306,9 @@ fieldset[disabled] .btn-xl.active {
     letter-spacing: 1px;
     font-size: 1.5em;
   }
+  .navbar-default.navbar-shrink .nav-container {
+    padding: 0px 0;
+  }
   .navbar-default.navbar-shrink #logonumber {
     font-size: 1.5em;
     height: auto;
@@ -320,12 +337,12 @@ fieldset[disabled] .btn-xl.active {
   }
   .nav-topper {
     display: block;
-    background-color: #222a31;
+    background-color: #030304;
     min-height: 30px;
     width: 100%;
   }
   .nav-topper .topper-content {
-    padding: 7px 0;
+    padding: 7px 0 4px;
     color: white;
     text-align: right;
     font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -730,6 +747,7 @@ section.clients img {
 section.clients .lightbackground {
   border: none;
   background-color: rgba(248, 248, 248, 0.5);
+  box-shadow: none;
 }
 section.clients .lightbackground blockquote {
   border: none;
@@ -959,17 +977,9 @@ body {
   width: 96%;
   margin: 0 auto;
 }
-.header-contactinfo {
-  display: none;
-  background-color: #222a31;
-  color: #f8f8f8;
-  margin: 0;
-  margin-top: 40px;
-  padding: 20px 0;
-}
-.header-contactinfo .contactinfo-container {
-  max-width: 1200px;
-  width: 98%;
+.nav-container2 {
+  max-width: 1900px;
+  width: 96%;
   margin: 0 auto;
 }
 .ci-icon {
@@ -982,14 +992,28 @@ body {
 }
 .lightbackground {
   background-color: #eff0f4;
+  border: 1px solid #e5e9ed;
   border-top: 5px solid #0099ff;
   padding: 25px 15px 15px;
+  box-shadow: 0px 0px 6px #f1f3f5;
 }
 .lightbackground ul {
   font-size: 16px;
   line-height: 20px;
 }
 .lightbackground ul li {
+  padding: 3px 0;
+}
+.darkbackground {
+  background-color: #eff0f4;
+  border-top: 5px solid #0099ff;
+  padding: 25px 15px 15px;
+}
+.darkbackground ul {
+  font-size: 16px;
+  line-height: 20px;
+}
+.darkbackground ul li {
   padding: 3px 0;
 }
 #pricingbtncon {
@@ -1022,6 +1046,7 @@ body {
   padding: 28px;
   min-height: 20px;
   border-top: 5px solid #0099ff;
+  box-shadow: 0px 0px 6px #e0e2ea;
 }
 .tablepadding {
   padding: 0 30px;
@@ -1049,18 +1074,19 @@ body {
 }
 #about {
   color: white;
+  background-color: #262f37;
+}
+#about .darkbackground {
   background-color: #222a31;
+  box-shadow: 0 0 6px #222a31;
 }
-#about .lightbackground {
-  background-color: #28323a;
-}
-#about .lightbackground .text-muted {
+#about .darkbackground .text-muted {
   color: #b3b3b3;
 }
-#about .lightbackground .text-primary {
+#about .darkbackground .text-primary {
   color: #0099ff;
 }
-#about .lightbackground p {
+#about .darkbackground p {
   font-size: 16px;
   padding-left: 15px;
 }

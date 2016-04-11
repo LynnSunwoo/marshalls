@@ -157,20 +157,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-topper {
-    display: none;
+    //display: none;
 }
 
+.nav-topper {
+    	display: block; 
+        background-color: darken(@brand-darkblue,0%);
+        //background-color: fade(@brand-darkblue, 90% );
+        //background-color: @brand-blue;
+        min-height: 30px;
+        width: 100%;
+        
+        .topper-content {
+            padding: 7px 0 4px 15px;
+            color: white;
+            text-align: left;
+            .heading-font();
+            font-size: 16px;
+             
+             
+        }
+}
  
 //collapes at different bp
 @media(min-width:1000px) {
     .navbar-default {
     	background-color: fade(@nav-background, 30%);
     	background-color: transparent;
-        padding: 40px 0 25px;
+        padding: 0px 0 25px;
+        //margin: 20px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
         border: none;
+        .nav-container {
+            padding: 20px 0;
+        }
         .nav { 
     	li {
     		a {
@@ -216,6 +238,9 @@ h1, h2, h3, h4, h5, h6 {
 		    .serif-font;
 	        font-size: 1.5em;  
 	    }    
+	    .nav-container {
+            padding: 0px 0;
+        }
 	    #logonumber { font-size: 1.5em; height: auto; }
 	    .nav {
     	li {
@@ -247,12 +272,13 @@ h1, h2, h3, h4, h5, h6 {
 	
 	.nav-topper {
     	 display: block; 
-        background-color: @brand-darkblue;
+        background-color: darken(@brand-darkblue,15%);
+        //background-color: @brand-blue;
         min-height: 30px;
         width: 100%;
         
         .topper-content {
-            padding: 7px 0;
+            padding: 7px 0 4px;
             color: white;
             text-align: right;
             .heading-font()
@@ -683,6 +709,8 @@ section.clients {
 	.lightbackground {
 	    border: none;
 	    background-color: fade(@nav-background, 50% );
+	    box-shadow: none;
+	    
 	    blockquote { 
 	        border: none; 
 	        color: black; 
@@ -918,23 +946,14 @@ body {
   width: 96%;
   margin: 0 auto;
 }
-
-
-
-.header-contactinfo {
-  display: none;
-  background-color: @brand-darkblue;
-  color: @nav-background;
-  margin: 0;
-  margin-top: 40px;
-  padding: 20px 0;
-  
-  .contactinfo-container {
-    max-width: 1200px;
-    width: 98%;
-    margin: 0 auto;
-  }
+.nav-container2 {
+  max-width: 1900px;
+  width: 96%;
+  margin: 0 auto;
 }
+
+
+ 
 
 .ci-icon {
   float: left;
@@ -949,8 +968,23 @@ body {
 //OUR SERVICE
 .lightbackground {
     background-color: @brand-grey;
+    border: 1px solid lighten(@brand-darkblue,75%);
     border-top: 5px solid @brand-blue;
     padding: 25px 15px 15px;
+    box-shadow: 0px 0px 6px lighten(@brand-darkblue, 79%);
+    
+    ul {
+        font-size: 16px;  
+        line-height: 20px;
+        li { padding: 3px 0; }
+    }
+}
+.darkbackground {
+    background-color: @brand-grey;
+    
+    border-top: 5px solid @brand-blue;
+    padding: 25px 15px 15px; 
+    
     ul {
         font-size: 16px;  
         line-height: 20px;
@@ -988,6 +1022,7 @@ body {
     padding: 28px;
     min-height: 20px; 
     border-top: 5px solid @brand-blue;
+    box-shadow: 0px 0px 6px darken(@brand-grey,5%);
 } 
 .tablepadding { padding: 0 30px; }
 .callfor { font-size: 20px; }
@@ -1014,9 +1049,12 @@ body {
 
 #about {
     color: white;
-    background-color: @brand-darkblue;
-    .lightbackground { 
-        background-color: lighten(@brand-darkblue, 3%); 
+    
+    background-color: lighten(@brand-darkblue, 2%); 
+    .darkbackground { 
+        background-color: lighten(@brand-darkblue, 0.1%); 
+        box-shadow: 0 0 6px @brand-darkblue;
+        
         .text-muted {
         	color: darken(white, 30%);
         }

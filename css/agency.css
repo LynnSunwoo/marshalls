@@ -593,6 +593,12 @@ section.clients .lightbackground blockquote .bycustom {
   font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
+#photos #galleriespics {
+  padding: 10px;
+}
+#photos a {
+  padding: 5px;
+}
 section#contact {
   background-color: #f8f8f8;
   background-position: center;

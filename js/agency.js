@@ -18,7 +18,13 @@ $(function() {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+});
+
+$('#clickviewservice').click(function() { 
+    classie.add( header, 'navbar-shrink' );
+	document.getElementById('logonumber').style.display = 'inline-block';
+});
+
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {

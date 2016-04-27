@@ -44,7 +44,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -61,7 +61,7 @@ h6 {
   color: white;
   background-color: #222a31;
   border-color: #222a31;
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -105,7 +105,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #0099ff;
   border-color: #0099ff;
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 40px;
@@ -151,7 +151,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .btn-call {
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   color: white;
   font-weight: 700;
@@ -206,7 +206,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: #222a31;
 }
 .navbar-default .nav li a {
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -238,7 +238,7 @@ fieldset[disabled] .btn-xl.active {
   padding: 5px 0 4px 15px;
   color: white;
   text-align: left;
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-size: 15px;
 }
@@ -256,7 +256,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 20px 0;
   }
   .navbar-default .nav li a {
-    font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
@@ -314,7 +314,7 @@ fieldset[disabled] .btn-xl.active {
     height: auto;
   }
   .navbar-default.navbar-shrink .nav li a {
-    font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
@@ -345,7 +345,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 5px 0 4px;
     color: white;
     text-align: right;
-    font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
   }
 }
@@ -376,7 +376,7 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 35px;
@@ -405,7 +405,7 @@ header .intro-text .intro-heading {
     margin-bottom: 20px;
   }
   header .intro-text .intro-heading {
-    font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
@@ -421,7 +421,7 @@ header .intro-text .intro-heading {
     text-align: left;
   }
   header .intro-text .intro-heading {
-    font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 60;
@@ -451,7 +451,7 @@ section h3.section-subheading {
 }
 section h3.section-subheading2 {
   font-size: 18px;
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   text-transform: none;
   font-style: none;
@@ -590,7 +590,7 @@ section.clients .lightbackground blockquote {
 }
 section.clients .lightbackground blockquote .bycustom {
   padding: 0 0;
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
 }
 #photos #galleriespics {
@@ -648,27 +648,27 @@ section#contact .form-control:focus {
   border-top: 5px solid #0099ff;
 }
 section#contact ::-webkit-input-placeholder {
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
 section#contact :-ms-input-placeholder {
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
@@ -683,14 +683,14 @@ footer {
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
-  font-family: "Yantramanav", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
@@ -721,6 +721,7 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
   outline: none;
+  box-shadow: none;
 }
 .portfolio-modal .modal-content {
   border-radius: 0;
@@ -857,6 +858,9 @@ body {
 }
 #pricingbtncon {
   margin-top: 30px;
+}
+td {
+  font-size: 16px;
 }
 #prices table h3 {
   margin: 6px 0;

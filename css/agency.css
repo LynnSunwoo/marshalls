@@ -16,8 +16,8 @@ body {
   color: #222a31;
 }
 p {
-  font-size: 14px;
-  line-height: 1.75;
+  font-size: 16px;
+  line-height: 1.25em;
 }
 p.large {
   font-size: 16px;
@@ -869,6 +869,11 @@ td {
 #prices table td {
   vertical-align: middle;
 }
+#prices ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 #completeDetailing ul {
   list-style: none;
   list-style-position: inside;
@@ -898,7 +903,7 @@ td {
   font-size: 20px;
 }
 .pricetags {
-  margin: 0 20px;
+  margin: 0 0px;
 }
 .pricetags .pricesquare {
   margin: 0;

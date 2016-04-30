@@ -915,7 +915,8 @@ td {
 }
 .pricetags .pricename {
   color: #0099ff;
-  margin-top: 6px;
+  margin-top: 4px;
+  font-size: 26px;
 }
 .col-md-4 {
   margin-bottom: 20px;

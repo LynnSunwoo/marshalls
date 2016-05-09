@@ -24,7 +24,10 @@ $('#clickviewservice').click(function() {
     classie.add( header, 'navbar-shrink' );
 	document.getElementById('logonumber').style.display = 'inline-block';
 });
-
+$('nav a').click(function() { 
+    classie.add( header, 'navbar-shrink' );
+	document.getElementById('logonumber').style.display = 'inline-block';
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {

@@ -48,6 +48,10 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+img {
+  width: 100%;
+  height: auto;
+}
 .img-centered {
   margin: 0 auto;
 }
@@ -472,6 +476,10 @@ section h3.section-subheading2 .phonenumber {
 #services .text-primary {
   color: #0099ff;
 }
+#services img {
+  width: 100px;
+  height: auto;
+}
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -889,7 +897,9 @@ td {
 #interiorDetailing,
 #exteriorDetailing,
 #paintcorrection,
-#custominteriordetailing {
+#custominteriordetailing,
+#basicwashwax,
+#Handwax {
   background-color: white;
   padding: 28px;
   min-height: 20px;
